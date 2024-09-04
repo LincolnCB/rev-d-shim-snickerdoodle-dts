@@ -107,7 +107,6 @@
 			#gpio-cells = <2>;
 			clocks = <&clkc 42>;
 			gpio-controller;
-			#address-cells = <1>;
 			interrupt-controller;
 			#interrupt-cells = <2>;
 			interrupt-parent = <&intc>;
@@ -139,7 +138,6 @@
 
 		intc: interrupt-controller@f8f01000 {
 			compatible = "arm,cortex-a9-gic";
-			#address-cells = <1>;
 			#interrupt-cells = <3>;
 			interrupt-controller;
 			reg = <0xF8F01000 0x1000>,
