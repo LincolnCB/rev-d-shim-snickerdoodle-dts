@@ -1,0 +1,11 @@
+/**
+ * Device Tree Source file for the Rev D Shim Controller
+ * - Loads the default snickerdoodle-black device tree
+ * - Loads the rev_d_shim additions
+ * Lincoln Craven-Brightman 2024-10-29
+ */
+
+/dts-v1/;
+/include/ "snickerdoodle-black.dtsi"
+/include/ "uio.dtsi"
+/include/ "rev_d_shim.dtsi"

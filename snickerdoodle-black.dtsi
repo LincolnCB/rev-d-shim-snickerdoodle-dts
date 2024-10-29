@@ -11,7 +11,7 @@
 /include/ "snickerdoodle.dtsi"
 / {
 	model = "snickerdoodle Black";
-        compatible = "krtkl,snickerdoodle-black", "krtkl,snickerdoodle", "xlnx,zynq-7000";
+	compatible = "krtkl,snickerdoodle-black", "krtkl,snickerdoodle", "xlnx,zynq-7000";
 
 	cpus {
 		cpu@0 {

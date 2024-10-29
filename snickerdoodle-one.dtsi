@@ -10,8 +10,8 @@
 
 /include/ "snickerdoodle.dtsi"
 / {
-        model = "snickerdoodle One";
-        compatible = "krtkl,snickerdoodle-one", "krtkl,snickerdoodle", "xlnx,zynq-7000";
+	model = "snickerdoodle One";
+	compatible = "krtkl,snickerdoodle-one", "krtkl,snickerdoodle", "xlnx,zynq-7000";
 
 	reserved-memory {
 		#address-cells = <1>;

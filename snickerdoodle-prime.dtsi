@@ -10,8 +10,8 @@
 
 /include/ "snickerdoodle.dtsi"
 / {
-        model = "snickerdoodle Prime";
-        compatible = "krtkl,snickerdoodle-prime", "krtkl,snickerdoodle", "xlnx,zynq-7000";
+	model = "snickerdoodle Prime";
+	compatible = "krtkl,snickerdoodle-prime", "krtkl,snickerdoodle", "xlnx,zynq-7000";
 
 	reserved-memory {
 		#address-cells = <1>;

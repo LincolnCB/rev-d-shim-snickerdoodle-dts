@@ -1,0 +1,9 @@
+/**
+ * Device Tree Source Include file for the Rev D Shim Controller
+ * Enables UART1
+ * - Lincoln Craven-Brightman 2024-10-29
+ */
+
+&uart1 {
+	status = "okay";
+};

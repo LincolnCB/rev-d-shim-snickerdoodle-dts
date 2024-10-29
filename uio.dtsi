@@ -9,13 +9,13 @@
  */
 
 &amba {
-        fpga-axi@0 {
-              compatible = "simple-bus";
-              #address-cells = < 0x01 >;
-              #size-cells = < 0x01 >;
-              ranges;
-              interrupt-parent = <&intc>;
-        
+		fpga-axi@0 {
+			compatible = "simple-bus";
+			#address-cells = < 0x01 >;
+			#size-cells = < 0x01 >;
+			ranges;
+			interrupt-parent = <&intc>;
+
 		uio0: uio0@40000000 {
 			reg = <0x40000000 0x80000000>;
 			compatible = "krtkl,generic-uio,ui_pdrv";
@@ -143,5 +143,5 @@
 			interrupt-parent = <&intc>;
 			interrupts = <0 59 4>;
 		};
-        };
+	};
 };
